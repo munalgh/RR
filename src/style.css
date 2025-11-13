@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html[data-theme="light"] {
+  --bg-primary: #ecf0ff;
+  --bg-secondary: #f5f5f5;
+  --bg-thirdly: #ecf0ff;
+  --text-header: #11172a;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+}
+
+html[data-theme="dark"] {
+  --bg-primary: #0c1337;
+  --bg-secondary: #11172a;
+  --bg-thirdly: #121212;
+  --text-header: #ffffff;
+  --text-primary: #2478FE;
+  --text-secondary: #B6B6B6;
+}
+
+html, body {
+  transition: background-color 2.0s ease, color 2.0s ease;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
