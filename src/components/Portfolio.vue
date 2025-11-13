@@ -15,11 +15,9 @@ const portfolios = [
 
 const isDark = ref(false)
 
-const underlineURL = computed(() => {
-  return isDark.value 
-    ? images['/src/assets/underline-white.png'] 
-    : images['/src/assets/underline-blue.png']
-})
+const underlineURL = computed(() => 
+  isDark.value ? '/underline-white.png' : '/underline-blue.png'
+)
 </script>
 
 <template>
