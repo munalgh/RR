@@ -6,10 +6,11 @@ import FadedCircles from './FadedCircles.vue';
 
 const isDark = ref(false)
 
+const images = import.meta.glob('/src/assets/*.png', { eager: true, import: 'default' })
 const logoUrl = computed(() => {
   return isDark.value 
-    ? '/src/assets/RRlogoDark.png' 
-    : '/src/assets/RRlogoLight.png'
+    ? images['/src/assets/RRlogoDark.png']
+    : images['/src/assets/RRlogoLight.png']
 })
 
 onMounted(() => {

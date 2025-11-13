@@ -17,8 +17,8 @@ const isDark = ref(false)
 
 const underlineURL = computed(() => {
   return isDark.value 
-    ? '/src/assets/underline-white.png' 
-    : '/src/assets/underline-blue.png'
+    ? images['/src/assets/underline-white.png'] 
+    : images['/src/assets/underline-blue.png']
 })
 </script>
 
