@@ -3,8 +3,8 @@ import { ref, onMounted, computed } from 'vue'
 import DarkModeIcon from './icons/DarkModeIcon.vue'
 import LightModeIcon from './icons/LightModeIcon.vue'
 import FadedCircles from './FadedCircles.vue';
-import RRlogoLight from '@/assets/RRlogoLight.png'
-import RRlogoDark from '@/assets/RRlogoDark.png'
+import RRlogoLight from '/src/assets/RRlogoLight.png'
+import RRlogoDark from '/src/assets/RRlogoDark.png'
 
 const isDark = ref(false)
 
