@@ -3,16 +3,12 @@ import { ref, onMounted, computed } from 'vue'
 import DarkModeIcon from './icons/DarkModeIcon.vue'
 import LightModeIcon from './icons/LightModeIcon.vue'
 import FadedCircles from './FadedCircles.vue';
+import RRlogoDark from '/src/assets/RRlogoDark.png'
+import RRlogoLight from '/src/assets/RRlogoLight.png'
 
 const isDark = ref(false)
 
-const images = import.meta.glob('./src/assets/*.png', { eager: true, import: 'default' })
-
-const logoUrl = computed(() => {
-  return isDark.value
-    ? images['./src/assets/RRlogoDark.png']
-    : images['./src/assets/RRlogoLight.png']
-})
+const logoUrl = computed(() => (isDark.value ? RRlogoDark : RRlogoLight))
 
 onMounted(() => {
   const currentTheme = document.documentElement.getAttribute('data-theme')
