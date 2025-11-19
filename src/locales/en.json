@@ -1,0 +1,77 @@
+{
+  "services": "Services",
+  "portfolio": "Portfolio",
+  "about": "About Us",
+  "testimonials": "Testimonials",
+  "contact": "Contact Us",
+  "welcome": "Welcome to <span class='text-[#5f80ea]'>RR</span><br> Technologies",
+  "intro": "Are You Facing Difficulties With Your Website? Do You Have A Website But Lack Traffic? No Need To Worry.",
+  "cta": "Get Started",
+
+  "thanks": "Thank You For Your Interest In Us!",
+  "aboutTitle": "Founded Over 7 Years Ago, RR Technologies Is Now The Main <span class='text-[#f4a500]'>Web Design</span> And <span class='text-[#f4a500]'>Web Development</span> Agency In Bangladesh.",
+  "aboutIntro": "Technology and business fused together can bear fruitful results talking in terms of business flourishment and success. And this is what exactly we aim to deliver to our esteemed clients, offering our mix of reliability, capability, and longevity to get your website blossoming. We at RR Technologies excel in the area of digital marketing, web software, web development, web designing, and other web solutions that you may consider availing for your website growth.",
+  "aboutParagraph": "Are you facing difficulties with your website? Do you have a website but lack traffic? No need to worry. We at RR Technologies use our technological expertise amalgamated with our experience to scoop out the right potion of success for your firm. We are highly passionate about our work and leave no stones unturned to delight our customers with high-quality work and efficient project management that comes as a surprise bearing bounteous outcomes. <br><br> Owing to the years of expertise in web development and web designing, our in-house professionals have been highly successful in catering projects. May it be your small size or large-scale business; we excel in providing you with the best interactive surfaces. Owing to the years of expertise in web development and web designing, our in-house professionals have been highly successful in catering projects. May it be your small size or large-scale business; we excel in providing you with the best interactive surfaces.",
+  "showMore": "Show More…",
+  "showLess": "Show Less",
+  "aboutArray": {
+      "projects": "Projects",
+      "clients": "Clients",
+      "experience": "Experience",
+      "company": "Company"
+    },
+
+  "servicesTitle": "Services We Offer",
+  "servicesIntro": "We Believe In True Partnership And Thus Get Our <span class='text-[#f4a500]'>Customers</span> A Bang For Their Bucks. There Are Various Areas In Which We Function, Here Are A Few Of Them:",
+  "servicesCard": {
+      "webDesign": "Web Design & Web Development",
+      "eCommerce": "E-commerce Solutions",
+      "appDev": "Customized Application Development",
+      "seo": "Search Engine Optimization & Digital Marketing"
+    },
+
+  "choose": "Why Choose Us",
+  "assets": "For Your Web Development Needs?",
+  "assetsIntro": "We Have Passion And Love For What We Do& We Don't Believe In Cutting Corners And Setting Wrong Expectations. We Aim At Improving With Each Passing Day And Showcase What We Actually Are In Reality, And We Do Not Pretend In Any Circumstances. There Are Multiple Reasons That Will Make You Fall For Us For Availing Top-Notch Web Development Services. Here Are A Few Of Them",
+  "experience": {
+    "experienceTitle": "Experience",
+    "experienceContent": "Experience Counts Is A Common Saying, And Hiring Us Means Hiring Professionals Who Have Years Of Experience To Add On To Their Kitty To Get Your Projects Falling At The Right Place. Also, We Have A Streamlined Project Management System To Cater To Your Project Requisites. Getting Connected With Us Allows You To Browse Over A Large Talent Pool Who Can Get Your Task Accomplished Within Fixed Deadlines."
+  },
+  "team": {
+    "teamTitle": "Dedicated Team",
+    "teamContent": "Everyone Has Their Own Cup Of Tea To Drink, And Thus We Do Not Mix Up The Different Areas Of Functionality. We Have Dedicated Teams For Designing And Graphics. While Our Web Developers Get The Deigning Part Done, We Have Our Own Graphic Designing Team That Handles All The Quality Imagery Part For A Successful Website."
+  },
+  "time": {
+    "timeTitle": "Rapid Turnaround Time",
+    "timeContent": "We Aim At Delivering Quality Work Within Fixed Deadlines And Thus Are Committed To Delivering Solutions When Our Clients Need Them Without Making Them Wait For It And Extend Beyond The Fixed Time Frame. We Chalk Out Our Plans Accordingly And Also Regularly Update Our Clients Regarding The Progress To Get What You Desire. We Give Ears To Your Vision"
+  },
+  "pricing": {
+    "pricingTitle": "Competitive Pricing",
+    "pricingContent": "Pricing Is One Crucial Factor That Every Business Owner Considers While Hiring A Web Development Company. We Are The Best In The Market And Offer Competitive Pricing To Our Clients Meeting All The Demands Of The Clients With Higher Levels Of Efficiency."
+  },
+
+  "portfolioTitle": "Our Portfolio",
+  "eCommWeb": "Ecommerce Websites",
+  "wordpress": "Wordpress Websites",
+  "logos": "Logos Design",
+  "grapgics": "Graphices Design",
+
+  "testTitle": "❛❛Testimonial❟❟",
+  "testSmith": {
+    "name": "Mr Smith",
+    "about": "RR Technologies Is The Key To The Success Of Our Brands. A Solid Team Of Strategic Planners And Brilliant Creations Enables Them To Provide World Class Service."
+  },
+  "testJohn": {
+    "name": "John Doe",
+    "about": "RR Technologies Is The Key To The Success Of Our Brands. A Solid Team Of Strategic Planners And Brilliant Creations Enables Them To Provide World Class Service."
+  },
+
+  "registerTitle": "Register interest",
+  "registerIntro": "Use the form below to contact us. Please be as detailed and precise as possible. Include your industry and any specific requests. To help us get to know and serve you better, we thank you for first giving us a good description of who you are. You can also send an email, call us or send us a WhatsApp to make an appointment.",
+  "registerName": "Name ",
+  "registerCompany": "Company ",
+  "registerEmail": "Email address ",
+  "registerMessage": "Message ",
+  "registerSubmit": "Submit",
+  "copyright": "@Copyright 2023 all right reserved by Naimur Rahman Hira"
+}

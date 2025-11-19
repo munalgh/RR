@@ -1,16 +1,13 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+import i18n from './i18n'
 
 const html = document.documentElement
 
+const savedTheme = localStorage.getItem('theme') || 'light'
+
 html.removeAttribute('class')
-html.removeAttribute('data-theme')
-html.setAttribute('data-theme', 'light')
-localStorage.setItem('theme', 'light')
+html.setAttribute('data-theme', savedTheme)
 
-console.log('HTML attributes after reset:')
-console.log('class:', html.getAttribute('class'))
-console.log('data-theme:', html.getAttribute('data-theme'))
-
-createApp(App).mount('#app')
+createApp(App).use(i18n).mount('#app')

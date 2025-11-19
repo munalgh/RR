@@ -4,6 +4,7 @@ html[data-theme="light"] {
   --bg-primary: #ecf0ff;
   --bg-secondary: #f5f5f5;
   --bg-thirdly: #ecf0ff;
+  --bg-button: #11172a;
   --text-header: #11172a;
   --text-primary: #0F172A;
   --text-secondary: #475569;
@@ -13,13 +14,25 @@ html[data-theme="dark"] {
   --bg-primary: #0c1337;
   --bg-secondary: #11172a;
   --bg-thirdly: #121212;
+  --bg-button: #2478FE;
   --text-header: #ffffff;
   --text-primary: #2478FE;
-  --text-secondary: #B6B6B6;
+  --text-secondary: #c5c5c5;
 }
 
 html, body {
-  transition: background-color 2.0s ease, color 2.0s ease;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  scroll-behavior: smooth;
+}
+
+html[dir="rtl"] .arrow {
+  transform: rotate(180deg);
+}
+
+.lang-ar {
+  font-size: 1.1em;
+}
+
+.lang-en {
+  font-size: 1em;
 }
