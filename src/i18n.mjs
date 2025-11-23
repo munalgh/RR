@@ -5,5 +5,6 @@ import ar from './locales/ar.json'
 export default createI18n({
   legacy: false,
   locale: localStorage.getItem('lang') || 'en',
-  messages: { en, ar }
+  messages: { en, ar },
+  warnHtmlMessage: false
 })
